@@ -5,6 +5,6 @@
     */
     $json = '[{"Nome":"Jo\u00e3o","Idade":20},{"Nome":"Pedro","Idade":34}]';
 
-    json_decode($json, true);
+    print_r(json_decode($json, true));
 
 ?>
